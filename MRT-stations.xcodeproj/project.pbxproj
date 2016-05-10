@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B596517D1CE1CEDA00546921 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B596517C1CE1CEDA00546921 /* AppDelegate.swift */; };
+		B596517F1CE1CEDA00546921 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B596517E1CE1CEDA00546921 /* ViewController.swift */; };
+		B59651821CE1CEDA00546921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59651801CE1CEDA00546921 /* Main.storyboard */; };
+		B59651841CE1CEDA00546921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59651831CE1CEDA00546921 /* Assets.xcassets */; };
+		B59651871CE1CEDA00546921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59651851CE1CEDA00546921 /* LaunchScreen.storyboard */; };
+		B59651921CE1CEDA00546921 /* MRT_stationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59651911CE1CEDA00546921 /* MRT_stationsTests.swift */; };
+		B596519D1CE1CEDA00546921 /* MRT_stationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B596519C1CE1CEDA00546921 /* MRT_stationsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B596518E1CE1CEDA00546921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B59651711CE1CEDA00546921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B59651781CE1CEDA00546921;
+			remoteInfo = "MRT-stations";
+		};
+		B59651991CE1CEDA00546921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B59651711CE1CEDA00546921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B59651781CE1CEDA00546921;
+			remoteInfo = "MRT-stations";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B59651791CE1CEDA00546921 /* MRT-stations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MRT-stations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B596517C1CE1CEDA00546921 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B596517E1CE1CEDA00546921 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B59651811CE1CEDA00546921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B59651831CE1CEDA00546921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B59651861CE1CEDA00546921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B59651881CE1CEDA00546921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B596518D1CE1CEDA00546921 /* MRT-stationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MRT-stationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59651911CE1CEDA00546921 /* MRT_stationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRT_stationsTests.swift; sourceTree = "<group>"; };
+		B59651931CE1CEDA00546921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B59651981CE1CEDA00546921 /* MRT-stationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MRT-stationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B596519C1CE1CEDA00546921 /* MRT_stationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRT_stationsUITests.swift; sourceTree = "<group>"; };
+		B596519E1CE1CEDA00546921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B59651761CE1CEDA00546921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B596518A1CE1CEDA00546921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59651951CE1CEDA00546921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B59651701CE1CEDA00546921 = {
+			isa = PBXGroup;
+			children = (
+				B596517B1CE1CEDA00546921 /* MRT-stations */,
+				B59651901CE1CEDA00546921 /* MRT-stationsTests */,
+				B596519B1CE1CEDA00546921 /* MRT-stationsUITests */,
+				B596517A1CE1CEDA00546921 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B596517A1CE1CEDA00546921 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B59651791CE1CEDA00546921 /* MRT-stations.app */,
+				B596518D1CE1CEDA00546921 /* MRT-stationsTests.xctest */,
+				B59651981CE1CEDA00546921 /* MRT-stationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B596517B1CE1CEDA00546921 /* MRT-stations */ = {
+			isa = PBXGroup;
+			children = (
+				B596517C1CE1CEDA00546921 /* AppDelegate.swift */,
+				B596517E1CE1CEDA00546921 /* ViewController.swift */,
+				B59651801CE1CEDA00546921 /* Main.storyboard */,
+				B59651831CE1CEDA00546921 /* Assets.xcassets */,
+				B59651851CE1CEDA00546921 /* LaunchScreen.storyboard */,
+				B59651881CE1CEDA00546921 /* Info.plist */,
+			);
+			path = "MRT-stations";
+			sourceTree = "<group>";
+		};
+		B59651901CE1CEDA00546921 /* MRT-stationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B59651911CE1CEDA00546921 /* MRT_stationsTests.swift */,
+				B59651931CE1CEDA00546921 /* Info.plist */,
+			);
+			path = "MRT-stationsTests";
+			sourceTree = "<group>";
+		};
+		B596519B1CE1CEDA00546921 /* MRT-stationsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B596519C1CE1CEDA00546921 /* MRT_stationsUITests.swift */,
+				B596519E1CE1CEDA00546921 /* Info.plist */,
+			);
+			path = "MRT-stationsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B59651781CE1CEDA00546921 /* MRT-stations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B59651A11CE1CEDA00546921 /* Build configuration list for PBXNativeTarget "MRT-stations" */;
+			buildPhases = (
+				B59651751CE1CEDA00546921 /* Sources */,
+				B59651761CE1CEDA00546921 /* Frameworks */,
+				B59651771CE1CEDA00546921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MRT-stations";
+			productName = "MRT-stations";
+			productReference = B59651791CE1CEDA00546921 /* MRT-stations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B596518C1CE1CEDA00546921 /* MRT-stationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B59651A41CE1CEDA00546921 /* Build configuration list for PBXNativeTarget "MRT-stationsTests" */;
+			buildPhases = (
+				B59651891CE1CEDA00546921 /* Sources */,
+				B596518A1CE1CEDA00546921 /* Frameworks */,
+				B596518B1CE1CEDA00546921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B596518F1CE1CEDA00546921 /* PBXTargetDependency */,
+			);
+			name = "MRT-stationsTests";
+			productName = "MRT-stationsTests";
+			productReference = B596518D1CE1CEDA00546921 /* MRT-stationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B59651971CE1CEDA00546921 /* MRT-stationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B59651A71CE1CEDA00546921 /* Build configuration list for PBXNativeTarget "MRT-stationsUITests" */;
+			buildPhases = (
+				B59651941CE1CEDA00546921 /* Sources */,
+				B59651951CE1CEDA00546921 /* Frameworks */,
+				B59651961CE1CEDA00546921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B596519A1CE1CEDA00546921 /* PBXTargetDependency */,
+			);
+			name = "MRT-stationsUITests";
+			productName = "MRT-stationsUITests";
+			productReference = B59651981CE1CEDA00546921 /* MRT-stationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B59651711CE1CEDA00546921 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = " Bryant";
+				TargetAttributes = {
+					B59651781CE1CEDA00546921 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B596518C1CE1CEDA00546921 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B59651781CE1CEDA00546921;
+					};
+					B59651971CE1CEDA00546921 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B59651781CE1CEDA00546921;
+					};
+				};
+			};
+			buildConfigurationList = B59651741CE1CEDA00546921 /* Build configuration list for PBXProject "MRT-stations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B59651701CE1CEDA00546921;
+			productRefGroup = B596517A1CE1CEDA00546921 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B59651781CE1CEDA00546921 /* MRT-stations */,
+				B596518C1CE1CEDA00546921 /* MRT-stationsTests */,
+				B59651971CE1CEDA00546921 /* MRT-stationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B59651771CE1CEDA00546921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59651871CE1CEDA00546921 /* LaunchScreen.storyboard in Resources */,
+				B59651841CE1CEDA00546921 /* Assets.xcassets in Resources */,
+				B59651821CE1CEDA00546921 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B596518B1CE1CEDA00546921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59651961CE1CEDA00546921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B59651751CE1CEDA00546921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B596517F1CE1CEDA00546921 /* ViewController.swift in Sources */,
+				B596517D1CE1CEDA00546921 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59651891CE1CEDA00546921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59651921CE1CEDA00546921 /* MRT_stationsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59651941CE1CEDA00546921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B596519D1CE1CEDA00546921 /* MRT_stationsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B596518F1CE1CEDA00546921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B59651781CE1CEDA00546921 /* MRT-stations */;
+			targetProxy = B596518E1CE1CEDA00546921 /* PBXContainerItemProxy */;
+		};
+		B596519A1CE1CEDA00546921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B59651781CE1CEDA00546921 /* MRT-stations */;
+			targetProxy = B59651991CE1CEDA00546921 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B59651801CE1CEDA00546921 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B59651811CE1CEDA00546921 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B59651851CE1CEDA00546921 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B59651861CE1CEDA00546921 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B596519F1CE1CEDA00546921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B59651A01CE1CEDA00546921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B59651A21CE1CEDA00546921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MRT-stations/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.company.MRT-stations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B59651A31CE1CEDA00546921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MRT-stations/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.company.MRT-stations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B59651A51CE1CEDA00546921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MRT-stationsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.company.MRT-stationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MRT-stations.app/MRT-stations";
+			};
+			name = Debug;
+		};
+		B59651A61CE1CEDA00546921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MRT-stationsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.company.MRT-stationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MRT-stations.app/MRT-stations";
+			};
+			name = Release;
+		};
+		B59651A81CE1CEDA00546921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MRT-stationsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.company.MRT-stationsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MRT-stations";
+			};
+			name = Debug;
+		};
+		B59651A91CE1CEDA00546921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MRT-stationsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.company.MRT-stationsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MRT-stations";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B59651741CE1CEDA00546921 /* Build configuration list for PBXProject "MRT-stations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B596519F1CE1CEDA00546921 /* Debug */,
+				B59651A01CE1CEDA00546921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B59651A11CE1CEDA00546921 /* Build configuration list for PBXNativeTarget "MRT-stations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59651A21CE1CEDA00546921 /* Debug */,
+				B59651A31CE1CEDA00546921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B59651A41CE1CEDA00546921 /* Build configuration list for PBXNativeTarget "MRT-stationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59651A51CE1CEDA00546921 /* Debug */,
+				B59651A61CE1CEDA00546921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B59651A71CE1CEDA00546921 /* Build configuration list for PBXNativeTarget "MRT-stationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59651A81CE1CEDA00546921 /* Debug */,
+				B59651A91CE1CEDA00546921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B59651711CE1CEDA00546921 /* Project object */;
+}
