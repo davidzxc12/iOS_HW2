@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		416E86A41ED91E68287D4B11 /* Pods_MRT_stations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D73D3EB213F0CAD91107765 /* Pods_MRT_stations.framework */; };
 		B596517D1CE1CEDA00546921 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B596517C1CE1CEDA00546921 /* AppDelegate.swift */; };
 		B596517F1CE1CEDA00546921 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B596517E1CE1CEDA00546921 /* ViewController.swift */; };
 		B59651821CE1CEDA00546921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59651801CE1CEDA00546921 /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		B59651871CE1CEDA00546921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59651851CE1CEDA00546921 /* LaunchScreen.storyboard */; };
 		B59651921CE1CEDA00546921 /* MRT_stationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59651911CE1CEDA00546921 /* MRT_stationsTests.swift */; };
 		B596519D1CE1CEDA00546921 /* MRT_stationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B596519C1CE1CEDA00546921 /* MRT_stationsUITests.swift */; };
+		B59651AB1CE1CF6F00546921 /* MRT.json in Resources */ = {isa = PBXBuildFile; fileRef = B59651AA1CE1CF6F00546921 /* MRT.json */; };
+		B59651AD1CE1D3D500546921 /* MRTStationsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59651AC1CE1D3D500546921 /* MRTStationsData.swift */; };
+		B59651AF1CE2DC7B00546921 /* StationListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59651AE1CE2DC7B00546921 /* StationListTableViewController.swift */; };
+		B59651B11CE3301A00546921 /* StationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59651B01CE3301A00546921 /* StationDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D73D3EB213F0CAD91107765 /* Pods_MRT_stations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MRT_stations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52651EC707A17D2CB7FF56B4 /* Pods-MRT-stations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRT-stations.release.xcconfig"; path = "Pods/Target Support Files/Pods-MRT-stations/Pods-MRT-stations.release.xcconfig"; sourceTree = "<group>"; };
+		A3E70AD90BA230D199B3BD18 /* Pods-MRT-stations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRT-stations.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MRT-stations/Pods-MRT-stations.debug.xcconfig"; sourceTree = "<group>"; };
 		B59651791CE1CEDA00546921 /* MRT-stations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MRT-stations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B596517C1CE1CEDA00546921 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B596517E1CE1CEDA00546921 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		B59651981CE1CEDA00546921 /* MRT-stationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MRT-stationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B596519C1CE1CEDA00546921 /* MRT_stationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRT_stationsUITests.swift; sourceTree = "<group>"; };
 		B596519E1CE1CEDA00546921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B59651AA1CE1CF6F00546921 /* MRT.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = MRT.json; path = "../../../Downloads/HW2 Specs/MRT.json"; sourceTree = "<group>"; };
+		B59651AC1CE1D3D500546921 /* MRTStationsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRTStationsData.swift; sourceTree = "<group>"; };
+		B59651AE1CE2DC7B00546921 /* StationListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationListTableViewController.swift; sourceTree = "<group>"; };
+		B59651B01CE3301A00546921 /* StationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				416E86A41ED91E68287D4B11 /* Pods_MRT_stations.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D131292182BFFB65505535B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3E70AD90BA230D199B3BD18 /* Pods-MRT-stations.debug.xcconfig */,
+				52651EC707A17D2CB7FF56B4 /* Pods-MRT-stations.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6510B44D7E80E22BB5D0AD7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D73D3EB213F0CAD91107765 /* Pods_MRT_stations.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B59651701CE1CEDA00546921 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +111,8 @@
 				B59651901CE1CEDA00546921 /* MRT-stationsTests */,
 				B596519B1CE1CEDA00546921 /* MRT-stationsUITests */,
 				B596517A1CE1CEDA00546921 /* Products */,
+				0D131292182BFFB65505535B /* Pods */,
+				6510B44D7E80E22BB5D0AD7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +129,16 @@
 		B596517B1CE1CEDA00546921 /* MRT-stations */ = {
 			isa = PBXGroup;
 			children = (
+				B59651AA1CE1CF6F00546921 /* MRT.json */,
 				B596517C1CE1CEDA00546921 /* AppDelegate.swift */,
 				B596517E1CE1CEDA00546921 /* ViewController.swift */,
 				B59651801CE1CEDA00546921 /* Main.storyboard */,
+				B59651AE1CE2DC7B00546921 /* StationListTableViewController.swift */,
 				B59651831CE1CEDA00546921 /* Assets.xcassets */,
 				B59651851CE1CEDA00546921 /* LaunchScreen.storyboard */,
 				B59651881CE1CEDA00546921 /* Info.plist */,
+				B59651AC1CE1D3D500546921 /* MRTStationsData.swift */,
+				B59651B01CE3301A00546921 /* StationDetailViewController.swift */,
 			);
 			path = "MRT-stations";
 			sourceTree = "<group>";
@@ -132,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B59651A11CE1CEDA00546921 /* Build configuration list for PBXNativeTarget "MRT-stations" */;
 			buildPhases = (
+				37E01E6AAF3BD03F6F8B75B5 /* 📦 Check Pods Manifest.lock */,
 				B59651751CE1CEDA00546921 /* Sources */,
 				B59651761CE1CEDA00546921 /* Frameworks */,
 				B59651771CE1CEDA00546921 /* Resources */,
+				1FF003824D8ACCEEF1EC4416 /* 📦 Embed Pods Frameworks */,
+				AA7DFAD5C9DAFBB5A15D982B /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +271,7 @@
 				B59651871CE1CEDA00546921 /* LaunchScreen.storyboard in Resources */,
 				B59651841CE1CEDA00546921 /* Assets.xcassets in Resources */,
 				B59651821CE1CEDA00546921 /* Main.storyboard in Resources */,
+				B59651AB1CE1CF6F00546921 /* MRT.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +291,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FF003824D8ACCEEF1EC4416 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MRT-stations/Pods-MRT-stations-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37E01E6AAF3BD03F6F8B75B5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA7DFAD5C9DAFBB5A15D982B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MRT-stations/Pods-MRT-stations-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B59651751CE1CEDA00546921 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B59651AF1CE2DC7B00546921 /* StationListTableViewController.swift in Sources */,
 				B596517F1CE1CEDA00546921 /* ViewController.swift in Sources */,
+				B59651AD1CE1D3D500546921 /* MRTStationsData.swift in Sources */,
 				B596517D1CE1CEDA00546921 /* AppDelegate.swift in Sources */,
+				B59651B11CE3301A00546921 /* StationDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +490,7 @@
 		};
 		B59651A21CE1CEDA00546921 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3E70AD90BA230D199B3BD18 /* Pods-MRT-stations.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "MRT-stations/Info.plist";
@@ -410,6 +502,7 @@
 		};
 		B59651A31CE1CEDA00546921 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52651EC707A17D2CB7FF56B4 /* Pods-MRT-stations.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "MRT-stations/Info.plist";
@@ -484,6 +577,7 @@
 				B59651A31CE1CEDA00546921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B59651A41CE1CEDA00546921 /* Build configuration list for PBXNativeTarget "MRT-stationsTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +586,7 @@
 				B59651A61CE1CEDA00546921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B59651A71CE1CEDA00546921 /* Build configuration list for PBXNativeTarget "MRT-stationsUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +595,7 @@
 				B59651A91CE1CEDA00546921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
